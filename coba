@@ -1,0 +1,29 @@
+#Belum SELESAI
+def info_Bata(nama, usia, warna, jenis):
+  print(f"Nama: {nama}, Usia: {usia}, Warna: {warna}, Jenis: {jenis}")
+
+info_Bata(nama, usia, warna, jenis)
+
+
+class Bata:
+  def __init__(self, nama, usia, warna, jenis):
+    self.nama = nama
+    self.usia = usia
+    self.warna = warna
+    self.jenis = jenis
+
+
+  def info_Bata(self):
+    print(f"warna: {self.warna}, Jenis Bata: {self.jenis}, Jenis Air: {self.jenis_air}")
+
+
+  def info(self):
+    print(f"Nama: {self.nama}, Usia: {self.usia}, Warna: {self.warna}, Jenis: {self.jenis}")
+
+  def Bakar(self):
+    print("wushh... wush... ")
+
+Bata1 = Bata("Bata", 2, "Merah", "Tanah", )
+
+
+Bata1.info()
